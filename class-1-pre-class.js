@@ -9,5 +9,3 @@ var myBool = true;
 
 console.log(typeof myStr);
 console.log(typeof myBool);
-
-

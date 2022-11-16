@@ -31,9 +31,40 @@
         </button>
         
       </div> -->
+
+      <div class="employee-mood">
+        <form id="emp-mood-form">
+          <h3>How are you feeling today</h3>
+
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="">
+          <br><br>
+          <label for="emp_mood">Your mood:</label>
+          <br>
+          <input type="radio" id="bad" name="emp_mood" value="bad">
+          <label for="bad">bad</label><br>
+
+          <input type="radio" id="good" name="emp_mood" value="good">
+          <label for="good">good</label><br>
+          
+          <input type="radio" id="great" name="emp_mood" value="great">
+          <label for="great">great</label>
+
+          <br><br>
+          
+          <input id="emp-mood-submit" type="submit" value="Submit">
+        </form>
+        <div class="mood-summary">
+          <h3>Entries in the Object:</h3>
+          <pre>
+          <code id="mood-summary-content"></code>
+          </pre>
+        </div>
+      </div>
+
     </div>
   </div>
 
-  <script src="./class-1-pre-class.js"></script>
+  <script src="./class-1-live.js"></script>
 </body>
 </html>

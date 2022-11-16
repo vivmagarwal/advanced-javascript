@@ -84,3 +84,27 @@ button {
     opacity: 0;
   }
 }
+
+.employee-mood {
+  display: flex;
+  gap: 1rem;
+}
+
+.employee-mood > * {
+  border: 1px dashed lightgray;
+  padding: 1rem;
+}
+
+.employee-mood .mood-summary {
+  width: 100%;
+}
+
+.mood-summary pre {
+  margin: 0;
+}
+
+.mood-summary code {
+  display: flex;
+  white-space: pre;
+}
+
